@@ -12,83 +12,150 @@
 
 <body>
     <header>
-        <a href="index.html"><img src="images/logo.png"> </a>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="course.html">COURSE</a></li>
-            </ul>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">CS50</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="course.html">Course</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <hr>
-        <h1>CS50 FanPage</h1>
-        <button type="button">Go to CS50 HomePage</button><br><br>
-        <!-- TODO: Find a suitable background image -->
-        <button>&#9658;</button>
+        <<!-- Title -->
+            <section class="bg-dark text-light p-5 text-center text-sm-start">
+                <div class="container">
+                    <div class="d-sm-flex align-items-center justify-content-between">
+                        <div>
+                            <h1><span class="text-warning"> CS50</span> FanPage</h1>
+
+                        </div>
+
+
+                        <img class="img-fluid w-50 d-none d-sm-block" src="/images/tics50.png" alt="">
+                    </div>
+                </div>
+            </section>
     </header>
-    <section>
-        <h2>Lesson</h2>
-        <div>
-            <div>
-                <strong>Instructor</strong>
+
+
+    <section class="p-5 bg-dark bg-gradient">
+        <div class="container text-center">
+            <h2>About Instructors</h2>
+            <div class="row text-center text-light fs-5">
+                <div class="col">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h2>Lessons</h2>
+
+                            <img src="https://cyber.harvard.edu/sites/default/files/styles/teaser/public/2020-09/malan.jpg?h=eb151966&itok=ksJmWTW8">
+                            <div>
+                                <span>David J. Malan</span><br>
+                                <a class="btn btn-primary" href="https://cs.harvard.edu/malan/" target="_self" role="button">details</a>
+                                <!--https://cs.harvard.edu/malan/-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center fs-5 modal-dialog">
+                            <p>
+                                Beyond being an excellent educator, Prof. Malan is a true entertainer, with near-perfect delivery. And when you’re tackling an academic course that may take you dozens of hours to complete, having an instructor capable
+                                of capturing the learner’s attention makes a huge difference.
+                                So if despite a sincere desire to learn, you find yourself falling asleep while taking online courses, this might just be the course for you. Prof. Malan’s energy is contagious!
+                                The lessons of Prof. Malan are the core of the CS50.
+                            </p>
+                            <a class="quote" href="https://www.freecodecamp.org/news/best-computer-science-courses/#1-cs50-s-introduction-to-computer-science-harvard-university-">1. CS50's Introduction to Computer Science (Harvard University)</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <img src="https://cyber.harvard.edu/sites/default/files/styles/teaser/public/2020-09/malan.jpg?h=eb151966&itok=ksJmWTW8">
-            <div>
-                <span>David J. Malan</span>
-                <button role=" button">Go to Personal Page</button>
-                <!--https://cs.harvard.edu/malan/-->
-                <p>
-                    Beyond being an excellent educator, Prof. Malan is a true entertainer, with near-perfect delivery. And when you’re tackling an academic course that may take you dozens of hours to complete, having an instructor capable of
-                    capturing the learner’s attention makes a huge difference.
-                    So if despite a sincere desire to learn, you find yourself falling asleep while taking online courses, this might just be the course for you. Prof. Malan’s energy is contagious!
-                </p>
-                <a class="quote" href="https://www.freecodecamp.org/news/best-computer-science-courses/#1-cs50-s-introduction-to-computer-science-harvard-university-">1. CS50's Introduction to Computer Science (Harvard University)</a>
-                <p>
-                    The lessons of Prof. Malan are the core of the CS50.
-                </p>
+
+            <div class="row text-center text-light fs-5 pt-2">
+                <div class="col">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h2>Short Videos</h2>
+                            <div>
+                                <div>
+                                    <strong>Instructor</strong>
+                                </div>
+                                <img src="https://pll.harvard.edu/sites/default/files/styles/medium_square/public/author/doug-lloyd110x110.jpg?itok=vCz-pb48">
+                                <div>
+                                    <span>Doug Lloyd</span><br>
+                                    <a class="btn btn-primary" href="https://douglloyd.com/" target="_self" role="button">details</a>
+                                    <!-- https://douglloyd.com/ -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center modal-dialog">
+                            <p>
+                                Short videos are explaining computing concepts. These are the continuation of the main lessons and are going into precise explaining of the most important concepts and details that you encountered in the main lesson.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <h2>Short Videos</h2>
-        <div>
-            <div>
-                <strong>Instructor</strong>
+            <div class="row text-center text-light fs-5 pt-2">
+                <div class="col">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h2>Lab Excercises and Problem Sets</h2>
+                            <div>
+                                <div>
+                                    <strong>Instructor</strong>
+                                </div>
+                                <img src="https://pll.harvard.edu/sites/default/files/styles/medium_square/public/author/Screen%20Shot%202020-11-24%20at%2011.46.25%20AM.png?itok=nJMQLf3n">
+                                <div>
+                                    <span>Brian Yu</span><br>
+                                    <a class="btn btn-primary" href="https://brianyu.me/" target="_self" role="button">details</a>
+                                    <!--https://brianyu.me/-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center fs-5 modal-dialog">
+
+                            <p>
+                                Lab Excercises and Problem Sets are the practical part of every lesson. There are written and video instructions for the every task. In Lab Excercises there are even the walkthroughs for the given tasks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <img src="https://pll.harvard.edu/sites/default/files/styles/medium_square/public/author/doug-lloyd110x110.jpg?itok=vCz-pb48">
-            <div>
-                <span>Doug Lloyd</span>
-                <button role=" button">Go to Personal Page</button>
-                <!-- https://douglloyd.com/ -->
-            </div>
-            <p>
-                Short videos are explaining computing concepts. These are the continuation of the main lessons and are going into precise explaining of the most important concepts and details that you encountered in the main lesson.
-            </p>
-        </div>
-    </section>
-    <section>
-        <h2>Lab Excercises and Problem Sets</h2>
-        <div>
-            <div>
-                <strong>Instructor</strong>
-            </div>
-            <img src="https://pll.harvard.edu/sites/default/files/styles/medium_square/public/author/Screen%20Shot%202020-11-24%20at%2011.46.25%20AM.png?itok=nJMQLf3n">
-            <div>
-                <span>Brian Yu</span>
-                <button role="button">Go to Personal Page</button>
-                <!--https://brianyu.me/-->
-            </div>
-            <p>
-                Lab Excercises and Problem Sets are the practical part of every lesson. There are written and video instructions for the every task. In Lab Excercises there are even the walkthroughs for the given tasks.
-            </p>
         </div>
     </section>
     <footer>
-        <ul>
-            <li> <a href="http://www.youtube.com/subscription_center?add_user=cs50tv" target="_blank">YouTube</a> </li>
-            <li><a href="https://twitter.com/cs50" target="_blank">Twitter</a></li>
-            <li><a href="https://github.com/cs50" target="_blank">GitHub</a></li>
-        </ul>
+        <nav class="bg-dark bg-gradient-reverse pt-2 pb-2">
+            <ul>
+                <p class="text-light something">For more info</p>
+                <li> <a class="btn btn-outline-warning" href="http://www.youtube.com/subscription_center?add_user=cs50tv" target="_blank">YouTube</a> </li>
+                <li><a class="btn btn-outline-warning" href="https://twitter.com/cs50" target="_blank">Twitter</a></li>
+                <li><a class="btn btn-outline-warning" href="https://github.com/cs50" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
